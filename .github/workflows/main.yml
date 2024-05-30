@@ -6,9 +6,9 @@ on:
 env:
   MESSAGE: ceci est une variable environment
 jobs:
-  debugs-info:
+  display-env:
     runs-on: ubuntu-latest
     steps:
-      - name: display_word
+      - name: display_env
         run: echo ${{env.MESSAGE}}
 
