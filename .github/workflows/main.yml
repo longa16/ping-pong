@@ -3,10 +3,12 @@ name : start
 on:
   push:
 
+env:
+  MESSAGE: ceci est une variable environment
 jobs:
   debugs-info:
     runs-on: ubuntu-latest
     steps:
       - name: display_word
-        run: echo "Hello world"
+        run: echo "${{MESSAGE}}"
 
