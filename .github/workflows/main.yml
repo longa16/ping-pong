@@ -1,10 +1,7 @@
-name : complexes
+name : start
 
 on:
   push:
-    branches:
-      master
-  pull_request:
 
 jobs:
   debugs-info:
