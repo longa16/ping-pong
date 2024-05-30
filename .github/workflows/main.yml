@@ -2,17 +2,14 @@ name : complexes
 
 on:
   push:
-    branch:
+    branches:
       master
-  pull-request:
-
-env:
-  MESSAGE: ceci est une variable d'environnement
+  pull_request:
 
 jobs:
   debugs-info:
     runs-on: ubuntu-latest
     steps:
-      - name: display_env
-        run: echo "${{env.MESSAGE}}"
+      - name: display_word
+        run: echo "Hello world"
 
