@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: display_word
-        run: echo "${{MESSAGE}}"
+        run: echo ${{env.MESSAGE}}
 
