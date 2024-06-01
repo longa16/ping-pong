@@ -2,6 +2,7 @@ name : start
 
 on:
   push:
+  pull_request:
 
 env:
   MESSAGE: ceci est une variable environment
