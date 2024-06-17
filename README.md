@@ -1,5 +1,5 @@
 comming soon
 # 4DVP
-- CI
-- CD
+- CI test lint
+- CD jenkins ansible
 ## pipeline
