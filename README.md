@@ -3,7 +3,7 @@ comming soon
  CI test lint
 - CD jenkins ansible
 
-developers
+
 infra 
 devops
 
