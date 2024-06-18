@@ -1,6 +1,6 @@
 comming soon
 # 4DVP
-- CI test lint
+ CI test lint
 - CD jenkins ansible
 
 developers
