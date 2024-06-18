@@ -4,7 +4,6 @@ comming soon
 - CD jenkins ansible
 
 
-infra 
-devops
+
 
 ## pipeline
