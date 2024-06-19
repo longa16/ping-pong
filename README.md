@@ -1,5 +1,4 @@
-
-ng soon
+g soon
 # 4DVP
  CI test lint
 - CD jenkins ansible
