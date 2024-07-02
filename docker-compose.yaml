@@ -8,16 +8,6 @@ services:
     ports:
       - "8000:80"
 
-  prometheus:
-    image: prom/prometheus:v2.36.2
-    command:
-      - "--config.file=/etc/prometheus/prometheus.yml"
-      - "--storage.tsdb.path=/prometheus"
-      - "--web.console.libraries=/usr/share/prometheus/console_libraries"
-      - "--web.console.templates=/usr/share/prometheus/consoles"
-    volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
-    ports:
-      - "9000:9090"
+
 
 
