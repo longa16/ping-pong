@@ -1,13 +1,9 @@
-version: '3'
+version: '3.9'
 
 services:
   exporter:
     image: ping-exporter
+    ports:
+      - '8000:80'
     environment:
       PORT: '80'
-    ports:
-      - "8000:80"
-
-
-
-
