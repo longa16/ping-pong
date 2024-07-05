@@ -7,3 +7,13 @@ services:
       - '8000:80'
     environment:
       PORT: '80'
+
+  mariadb:
+    image: maria-db:latest
+    depends_on:
+      exporter
+    MARIA_DB_DATABASE: database
+    MARIA_DB_ROOT_PASSWORD: root
+    MARIA_DB_USER_PASSWORD: password
+    MARIA_DB_USER: user
+    
